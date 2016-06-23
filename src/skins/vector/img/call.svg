@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="30px" height="22px" viewBox="-1 -1 30 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
-    <title>icons_video</title>
-    <desc>Created with bin/sketchtool.</desc>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Video</title>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="02-Chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="02_13-Chat-member-profile" sketch:type="MSArtboardGroup" transform="translate(-910.000000, -723.000000)" stroke="#C83C3C">
-            <g id="icons_video" sketch:type="MSLayerGroup" transform="translate(910.000000, 722.000000)">
-                <g id="Rectangle-20-+-Path-16" transform="translate(0.000000, 0.464286)" sketch:type="MSShapeGroup">
-                    <rect id="Rectangle-20" fill="#FFFFFF" x="0" y="0.535714286" width="20" height="20" rx="4"></rect>
-                    <path d="M20.75,10.6964286 C20.75,14.0446429 24.188247,15.7371974 24.188247,15.7371974 C25.5057636,16.651593 26.5738219,16.0843085 26.5738219,14.4868066 L26.5738219,6.90605053 C26.5738219,5.30108314 25.4784055,4.70120148 24.188247,5.65565975 C24.188247,5.65565975 20.75,7.34821429 20.75,10.6964286 Z" id="Path-16"></path>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Team-discussion" transform="translate(-1001.000000, -699.000000)">
+            <g id="Group-5" transform="translate(944.000000, 700.000000)">
+                <g id="Video" transform="translate(58.000000, 0.449219)">
+                    <path d="M22.78125,44.046875 C34.9315145,44.046875 44.78125,34.1971395 44.78125,22.046875 C44.78125,9.8966105 34.9315145,0.046875 22.78125,0.046875 C10.6309855,0.046875 0.78125,9.8966105 0.78125,22.046875 C0.78125,34.1971395 10.6309855,44.046875 22.78125,44.046875 Z" id="Circle" stroke="#E4E4E4" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M29.469401,16.3427734 C29.469401,15.6969889 28.9410319,15.1686198 28.2952474,15.1686198 L14.2054036,15.1686198 C13.5596191,15.1686198 13.03125,15.6969889 13.03125,16.3427734 L13.03125,28.0843099 C13.03125,28.7300944 13.5596191,29.2584635 14.2054036,29.2584635 L28.2952474,29.2584635 C28.9410319,29.2584635 29.469401,28.7300944 29.469401,28.0843099 L29.469401,23.9747721 L34.1660156,28.6713867 L34.1660156,15.7556966 L29.469401,20.4523112 L29.469401,16.3427734 Z" id="ic_videocam_48px" fill="#BDC6CF"></path>
                 </g>
             </g>
         </g>
