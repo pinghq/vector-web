@@ -23,14 +23,8 @@ module.exports = React.createClass({
     displayName: 'NewVersionBar',
 
     render: function() {
-        return (
-            <div className="mx_MatrixToolbar">
-                <img className="mx_MatrixToolbar_warning" src="img/warning.svg" width="24" height="23" alt="/!\"/>
-                <div>
-                    A new version of Vector is available. Refresh your browser.
-                </div>
-            </div>
-        );
+        return (" ");
+            /* Chop this out until we make it more reliable. */
     }
 });
 

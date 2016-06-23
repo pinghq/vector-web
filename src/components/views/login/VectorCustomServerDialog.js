@@ -19,34 +19,11 @@ var React = require("react");
 module.exports = React.createClass({
     displayName: 'VectorCustomServerDialog',
     statics: {
-        replaces: 'CustomServerDialog',
+        replaces: 'CustomServerDialog'
     },
 
     render: function() {
-        return (
-            <div className="mx_ErrorDialog">
-                <div className="mx_Dialog_title">
-                    Custom Server Options
-                </div>
-                <div className="mx_Dialog_content">
-                    <span>
-                        You can use the custom server options to log into other Matrix
-                        servers by specifying a different Home server URL.
-                        <br/>
-                        This allows you to use Vector with an existing Matrix account on
-                        a different home server.
-                        <br/>
-                        <br/>
-                        You can also set a custom identity server but you won't be able to
-                        invite users by email address, or be invited by email address yourself.
-                    </span>
-                </div>
-                <div className="mx_Dialog_buttons">
-                    <button onClick={this.props.onFinished} autoFocus={true}>
-                        Dismiss
-                    </button>
-                </div>
-            </div>
-        );
+        /* Chopped until we know what we're doing with it. */
+        return (" ");
     }
 });
