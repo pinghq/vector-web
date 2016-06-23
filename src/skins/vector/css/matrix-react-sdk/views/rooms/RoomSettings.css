@@ -145,7 +145,7 @@ limitations under the License.
 }
 
 .mx_RoomSettings_editable:focus {
-    border-bottom: 1px solid #76CFA6;
+    border-bottom: 1px solid #C83C3C;
     outline: none;
     box-shadow: none;
 }

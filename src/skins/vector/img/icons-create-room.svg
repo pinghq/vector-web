@@ -9,7 +9,7 @@
             <g id="Room-list" sketch:type="MSLayerGroup">
                 <g id="Room-list/Footer" transform="translate(0.000000, 708.000000)" sketch:type="MSShapeGroup">
                     <g id="icons_create_room" transform="translate(20.000000, 18.000000)">
-                        <circle id="Oval-1-Copy-7" fill="#76CFA6" cx="12" cy="12" r="12"></circle>
+                        <circle id="Oval-1-Copy-7" fill="#C83C3C" cx="12" cy="12" r="12"></circle>
                         <path d="M7,12 L17,12" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
                         <path d="M12,7 L12,17" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
                     </g>

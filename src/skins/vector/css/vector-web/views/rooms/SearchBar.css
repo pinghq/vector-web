@@ -41,7 +41,7 @@ limitations under the License.
     width: 37px;
     height: 37px;
     border-radius: 0px 3px 3px 0px;
-    background-color: #76CFA6;
+    background-color: #C83C3C;
 }
 
 @keyframes pulsate {
@@ -75,8 +75,8 @@ limitations under the License.
 
 .mx_SearchBar_unselected {
     background-color: #fff;
-    color: #76CFA6;
-    border: #76CFA6 1px solid;
+    color: #C83C3C;
+    border: #C83C3C 1px solid;
 }
 
 .mx_SearchBar_cancel {

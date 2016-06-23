@@ -198,7 +198,7 @@ limitations under the License.
 }
 
 .mx_RoomHeader_editable:focus {
-    border-bottom: 1px solid #76CFA6 ! important;
+    border-bottom: 1px solid #C83C3C ! important;
     outline: none;
     box-shadow: none;
 }

@@ -53,7 +53,7 @@ a:visited {
 }
 
 input[type=text]:focus, textarea:focus {
-    border: 1px solid #76CFA6;
+    border: 1px solid #C83C3C;
     outline: none;
     box-shadow: none;
 }
@@ -230,11 +230,11 @@ input[type=text]:focus, textarea:focus {
 }
 
 ::-moz-selection {
-    background-color: #76CFA6;
+    background-color: #C83C3C;
     color: white;
 }
 
 ::selection {
-    background-color: #76CFA6;
+    background-color: #C83C3C;
     color: white;
 }
