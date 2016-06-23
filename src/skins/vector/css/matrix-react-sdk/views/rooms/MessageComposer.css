@@ -81,11 +81,11 @@ limitations under the License.
 /* hack for FF as vertical alignment of custom placeholder text is broken */
 .mx_MessageComposer_input textarea::-moz-placeholder {
     line-height: 100%;
-    color: #76cfa6;
+    color: #902222;
     opacity: 1.0;
 }
 .mx_MessageComposer_input textarea::-webkit-input-placeholder {
-    color: #76cfa6;
+    color: #902222;
 }
 
 .mx_MessageComposer_upload,
