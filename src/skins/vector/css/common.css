@@ -228,6 +228,9 @@ input[type=text]:focus, textarea:focus {
     height: 1em;
     vertical-align: middle;
 }
+.mx_RoomView_messagePanel {
+    color: #000000;
+}
 
 ::-moz-selection {
     background-color: #C83C3C;
