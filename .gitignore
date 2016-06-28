@@ -8,3 +8,8 @@
 /vector/bundle.*
 /vector/components.css
 /nbproject/private/
+bundle.css
+
+bundle.css.map
+
+dev
