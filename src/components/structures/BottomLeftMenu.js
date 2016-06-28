@@ -48,17 +48,13 @@ module.exports = React.createClass({
     render: function() {
         var BottomLeftMenuTile = sdk.getComponent('rooms.BottomLeftMenuTile');
         var TintableSvg = sdk.getComponent('elements.TintableSvg');
+        var SearchBox = sdk.getComponent('structures.SearchBox');
         return (
             <div className="mx_BottomLeftMenu">
+                <SearchBox collapsed={ this.props.collapsed } onSearch={ this.onSearch } />
                 <div className="mx_BottomLeftMenu_options">
                     <div className="mx_BottomLeftMenu_createRoom" title="Start chat" onClick={ this.onCreateRoomClick }>
-                        <TintableSvg src="img/icons-create-room.svg" width="24" height="24"/>
-                    </div>
-                    <div className="mx_BottomLeftMenu_directory" title="Room directory" onClick={ this.onRoomDirectoryClick }>
-                        <TintableSvg src="img/icons-directory.svg" width="24" height="24"/>
-                    </div>
-                    <div className="mx_BottomLeftMenu_settings" title="Settings" onClick={ this.onSettingsClick }>
-                        <TintableSvg src="img/icons-settings.svg" width="24" height="24"/>
+                        WGIJFDKGFD Create
                     </div>
                 </div>
             </div>

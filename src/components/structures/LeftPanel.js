@@ -21,6 +21,7 @@ var DragDropContext = require('react-dnd').DragDropContext;
 var HTML5Backend = require('react-dnd-html5-backend');
 var sdk = require('matrix-react-sdk')
 var dis = require('matrix-react-sdk/lib/dispatcher');
+var MatrixClientPeg = require("matrix-react-sdk/lib/MatrixClientPeg");
 
 var VectorConferenceHandler = require('../../VectorConferenceHandler');
 var CallHandler = require("matrix-react-sdk/lib/CallHandler");
@@ -84,6 +85,9 @@ var LeftPanel = React.createClass({
             });
         }
     },
+    onSettingsClick: function() {
+        dis.dispatch({action: 'view_user_settings'});
+    },
 
     onSearch: function(term) {
         this.setState({ searchFilter: term });
@@ -92,10 +96,14 @@ var LeftPanel = React.createClass({
     render: function() {
         var RoomList = sdk.getComponent('rooms.RoomList');
         var BottomLeftMenu = sdk.getComponent('structures.BottomLeftMenu');
-        var SearchBox = sdk.getComponent('structures.SearchBox');
+        var TintableSvg = sdk.getComponent('elements.TintableSvg');
 
         var collapseButton;
         var classes = "mx_LeftPanel mx_fadable";
+        
+        var DisplayName = MatrixClientPeg.get().getUserIdLocalpart();
+        var DisplayAvatar = sdk.getComponent('avatars.MemberAvatar');
+        
         if (this.props.collapsed) {
             classes += " collapsed";
         }
@@ -113,10 +121,14 @@ var LeftPanel = React.createClass({
                     ConferenceHandler={VectorConferenceHandler} />
             );
         }
+        
+        var DisplayName = MatrixClientPeg.get().getUserIdLocalpart();
 
-        return (
+        return (   
             <aside className={classes} style={{ opacity: this.props.opacity }}>
-                <SearchBox collapsed={ this.props.collapsed } onSearch={ this.onSearch } />
+                <div className="mx_TopLeftMenu_settings" title="Settings" onClick={ this.onSettingsClick }>
+                    { "NAMEHERE " + DisplayName }
+                </div> 
                 { collapseButton }
                 { callPreview }
                 <RoomList
