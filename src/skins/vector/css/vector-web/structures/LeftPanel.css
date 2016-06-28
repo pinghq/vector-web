@@ -24,6 +24,7 @@ limitations under the License.
     display: flex;
     flex-direction: column;
     -webkit-flex-direction: column;
+    background-color: #014974;
 }
 
 .mx_LeftPanel_hideButton {

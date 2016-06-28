@@ -41,7 +41,7 @@ limitations under the License.
     overflow: hidden;
     word-break: break-word;
     padding-right: 15px;
-    color: rgba(69, 69, 69, 0.8);
+    color: rgba(151, 180, 198, 1);
 }
 
 .mx_RoomTile_ellipsis .mx_RoomTile_name {
