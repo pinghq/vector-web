@@ -27,7 +27,7 @@ body {
        nicely with Open Sans (on OSX, at least) and result in a huge
        horizontal mess.  Arial empirically gets it right, hence prioritising
        Arial here. */
-    font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+    font-family: 'Roboto', Arial, Helvetica, Sans-Serif;
     font-size: 15px;
     color: #97b4c6;
     border: 0px;
