@@ -54,7 +54,7 @@ module.exports = React.createClass({
                 <SearchBox collapsed={ this.props.collapsed } onSearch={ this.onSearch } />
                 <div className="mx_BottomLeftMenu_options">
                     <div className="pg_NewDiscussionButton" title="Start chat" onClick={ this.onCreateRoomClick }>
-                        +&nbsp;&nbsp;&nbsp;&nbsp;New Discussion
+                        +&nbsp;&nbsp;New Discussion
                     </div>
                 </div>
             </div>

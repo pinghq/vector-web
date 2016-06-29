@@ -266,10 +266,11 @@ input[type=text]:focus, textarea:focus {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     line-height: 33px;
-    width: 156px;
+    width: 153px;
     height: 35px;
     border: 2px solid #fff;
     border-radius: 6px;
-    padding-left: 22px;
-    margin-bottom: 23px;
+    padding-left: 23px;
+    margin-bottom: 33px;
+    margin-left: 10px;
 }

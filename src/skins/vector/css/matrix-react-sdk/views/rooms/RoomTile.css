@@ -18,11 +18,10 @@ limitations under the License.
     cursor: pointer;
     /* This fixes wrapping of long room names, but breaks drag & drop previews */
     /* display: table-row; */
-    font-size: 13pt;
+    font-size: 11pt;
     position: relative;
     padding-left: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    line-height: 18pt;
 }
 
 .mx_RoomTile_avatar {
