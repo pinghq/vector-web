@@ -241,3 +241,35 @@ input[type=text]:focus, textarea:focus {
     background-color: #C83C3C;
     color: white;
 }
+
+.pg_TopLeftMenu {
+    display: flex;
+    width: 237px;
+    height: 74px;
+    background-color: #023b5d;
+}
+.pg_TopLeftMenu_Avatar {
+    padding-top: 13px;
+    padding-left: 15px;
+    cursor: pointer;
+    align: center;
+    width: 76px;
+}
+.pg_TopLeftMenu_UserName {
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-top: 33px;
+    cursor: pointer;
+}
+.pg_NewDiscussionButton {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    line-height: 33px;
+    width: 156px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding-left: 22px;
+    margin-bottom: 23px;
+}

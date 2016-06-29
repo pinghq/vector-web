@@ -97,12 +97,13 @@ var LeftPanel = React.createClass({
         var RoomList = sdk.getComponent('rooms.RoomList');
         var BottomLeftMenu = sdk.getComponent('structures.BottomLeftMenu');
         var TintableSvg = sdk.getComponent('elements.TintableSvg');
+        var BaseAvatar = sdk.getComponent("avatars.BaseAvatar");
 
         var collapseButton;
         var classes = "mx_LeftPanel mx_fadable";
-        
-        var DisplayName = MatrixClientPeg.get().getUserIdLocalpart();
-        var DisplayAvatar = sdk.getComponent('avatars.MemberAvatar');
+        var localStorage = window.localStorage;
+        var user_id = localStorage.getItem("mx_user_id");
+        var DisplayName = MatrixClientPeg.get().getProfileInfo(user_id, 'displayname');
         
         if (this.props.collapsed) {
             classes += " collapsed";
@@ -123,12 +124,26 @@ var LeftPanel = React.createClass({
         }
         
         var DisplayName = MatrixClientPeg.get().getUserIdLocalpart();
-
+// Slowly refactoring this so I have some idea of how it's structured. --- HRG
         return (   
             <aside className={classes} style={{ opacity: this.props.opacity }}>
-                <div className="mx_TopLeftMenu_settings" title="Settings" onClick={ this.onSettingsClick }>
-                    { "NAMEHERE " + DisplayName }
-                </div> 
+            <div className="pg_TopLeftMenu">
+                <div className="pg_TopLeftMenu_Avatar" title="Settings" onClick= { this.onSettingsClick } >
+                    <BaseAvatar 
+                        width='42px' 
+                        height='42px' 
+                        resizeMethod='crop'
+                        
+                        name='' 
+                        idName={ MatrixClientPeg.get().getUserIdLocalpart() } 
+                        url={this.state.avatarUrl} 
+                    />
+                </div>
+                <div className="pg_TopLeftMenu_UserName" onClick= { this.onSettingsClick } >
+                    { DisplayName }
+                </div>
+       
+            </div>
                 { collapseButton }
                 { callPreview }
                 <RoomList
