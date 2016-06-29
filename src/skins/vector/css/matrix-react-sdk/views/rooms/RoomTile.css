@@ -20,6 +20,9 @@ limitations under the License.
     /* display: table-row; */
     font-size: 13px;
     position: relative;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .mx_RoomTile_avatar {
