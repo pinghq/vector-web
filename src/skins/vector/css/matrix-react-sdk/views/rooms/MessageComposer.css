@@ -18,7 +18,6 @@ limitations under the License.
     max-width: 960px;
     vertical-align: middle;
     margin: auto;
-    border-top: 1px solid #e5e5e5;
 }
 
 .mx_MessageComposer_row {
@@ -65,17 +64,18 @@ limitations under the License.
     padding: 0px;
     margin-top: 6px;
     margin-bottom: 6px;
-    border: 0px;
+    border: 2px sold #E1E8EE;
     resize: none;
     outline: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    color: #454545;
+    color: #49444E;
     background-color: #fff;
+    border-radius: 6px;
 
     /* needed for FF */
-    font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+    font-family: 'Roboto', Sans-Serif;
 }
 
 /* hack for FF as vertical alignment of custom placeholder text is broken */
