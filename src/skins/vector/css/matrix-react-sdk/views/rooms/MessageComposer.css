@@ -60,10 +60,10 @@ limitations under the License.
 .mx_MessageComposer_input textarea {
     display: block;
     font-size: 15px;
-    width: 100%;
+    width: 90%;
     padding: 5px;
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 11px;
     border: 2px solid #E1E8EE;
     resize: none;
     outline: none;
@@ -73,6 +73,7 @@ limitations under the License.
     color: #49444E;
     background-color: #fff;
     border-radius: 6px;
+    line-height: 26px;
 
     /* needed for FF */
     font-family: 'Roboto', Sans-Serif;
