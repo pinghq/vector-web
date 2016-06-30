@@ -1,3 +1,4 @@
+*.espresso*
 /cert.pem
 /.DS_Store
 /karma-reports
