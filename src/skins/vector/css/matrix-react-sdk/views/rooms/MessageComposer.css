@@ -61,10 +61,10 @@ limitations under the License.
     display: block;
     font-size: 15px;
     width: 100%;
-    padding: 0px;
+    padding: 5px;
     margin-top: 6px;
     margin-bottom: 6px;
-    border: 2px sold #E1E8EE;
+    border: 2px solid #E1E8EE;
     resize: none;
     outline: none;
     -webkit-box-shadow: none;
