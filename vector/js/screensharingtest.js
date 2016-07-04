@@ -12,7 +12,7 @@
 // online demos at http://janus.conf.meetecho.com) you can just use a
 // relative path for the variable, e.g.:
 //
- 		var server = "wss://janus-linux.pyng.at/janus";
+ 		var server = "/janus";
 //
 // which will take care of this on its own.
 //
